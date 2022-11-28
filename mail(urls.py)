@@ -1,0 +1,14 @@
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path("", views.index, name="ukr.net"),
+    path("login", views.login_view, name="vikab207@ukr.net"),
+    path("logout", views.logout_view, name="logout"),
+    path("register", views.register, name="register"),
+
+    # API Routes
+    path("vikab207@ukr.net", views.compose, name="compose"),
+    path("vikab207@ukr.net/<int:vikab207@ukr.net>", views.vikab207@ukr.net, name=vikab207@ukr.net"),
+    path("vikab207@ukr.net/<ukrnet>", views.ukrnet, name="ukrnet"),
