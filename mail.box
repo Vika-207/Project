@@ -1,0 +1,22 @@
+[
+    {
+        "id": 100,
+        "sender": "foo@example.com",
+        "recipients": ["bar@example.com"],
+        "subject": "Привіт!",
+        "body": "Привіт, світ!",
+        "timestamp": "Січ. 2 2020, 12:00 AM",
+        "read": false,
+        "archived": false
+    },
+    {
+        "id": 95,
+        "sender": "baz@example.com",
+        "recipients": ["bar@example.com"],
+        "subject": "Зустріч завтра",
+        "body": "О котрій зустрічаємось?",
+        "timestamp": "Січ. 1 2020, 12:00 AM",
+        "read": true,
+        "archived": false
+    }
+]
