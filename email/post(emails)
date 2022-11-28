@@ -1,0 +1,13 @@
+fetch('/emails', {
+  method: 'POST',
+  body: JSON.stringify({
+      recipients: 'baz@example.com',
+      subject: 'Час зустрічі',
+      body: 'Може, зустрінемось завтра о 15.00?'
+  })
+})
+.then(response => response.json())
+.then(result => {
+    // Вивести результат в консоль
+    console.log(result);
+});
