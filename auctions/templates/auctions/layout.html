@@ -1,0 +1,11 @@
+{% load static %}
+Auctions
+{% if user.is_authenticated %} Signed in as {{ user.username }}. {% else %} Not signed in. {% endif %}
+Active Listings
+{% if user.is_authenticated %}
+Log Out
+{% else %}
+Log In
+Register
+{% endif %}
+{% block body %} {% endblock %}
